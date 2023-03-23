@@ -1,4 +1,4 @@
-a, b = map(int, input().split())
+a, b = map(int, input("Введите сумму и произведение чисел через пробел: ").split())
 c = 0
 for i in range(a + b):
     if c:
